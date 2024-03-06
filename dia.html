@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Día de la Mujer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 400px;
+            position: relative; /* Añadimos posición relativa para el corazón */
+        }
+        h1 {
+            color: #ff6f61;
+        }
+        p {
+            color: #333;
+        }
+        .heart {
+            position: absolute; /* Posicionamos el corazón */
+            top: -20px; /* Lo ajustamos al margen superior */
+            right: -30px; /* Lo ajustamos al margen derecho */
+            box-shadow: 0 0 10px rgba(255, 0, 0, 1); /* Efecto de sombra */
+        }
+        h1 {
+            color: #ff6f61;
+            animation: moveText 0.8s ease-in-out infinite alternate; /* Animación para mover el texto */
+        }
+        @keyframes moveText {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(10px);
+            }
+        }
+        p {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Feliz Día de la Mujer</h1>
+            <img src="corazon_rosado.png" alt="Corazón rosado" width="205" height="209">
+        <p>Quiero aprovechar este día para expresarte mi más profunda gratitud por ser una fuente
+        constante de inspiración y fortaleza para todos nosotros. Tu dedicación incansable y tu
+        capacidad para enfrentar desafíos con gracia y determinación nos motiva a ser mejores cada día.
+        ¡Gracias por tu invaluable contribución al equipo y por ser un ejemplo a seguir! 
+        Que este Día Internacional de la Mujer esté lleno de amor, reconocimiento y celebración para ti.
+        ¡Te lo mereces! ¡Gracias por ser una inspiración!</p>
+        <p>¡Que tengas un día maravilloso!</p>
+        <p>Atentamente, Alexander</p>
+    </div>
+</body>
+</html>
